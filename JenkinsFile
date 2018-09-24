@@ -8,15 +8,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-<<<<<<< HEAD
 		sh 'pwd'
 		sh 'ls -l'
                 sh 'mvn   -X   -e   -B -DskipTests clean package' 
-=======
-		sh pwd
-		sh ls -l
-                sh 'mvn -X -e -B -DskipTests clean package' 
->>>>>>> e7e0943898a08a9da2b428ab82930866b8a1d2ab
             }
         }
     }
