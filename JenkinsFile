@@ -10,7 +10,8 @@ pipeline {
             steps {
 		sh 'pwd'
 		sh 'ls -l'
-                sh 'mvn   -X   -e   -B  -DskipTests clean package' 
+				sh 'mvn --version'
+                // sh 'mvn   -X   -e   -B  -DskipTests clean package' 
             }
         }
     }
